@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--grey color states-->
+    <color name="grey110">#1e2026</color>
+    <color name="grey100">#1e2026</color>
+    <color name="grey100_72">#B81e2026</color>
+    <color name="grey80">#4b4d51</color>
+    <color name="grey64">#6f7074</color>
+    <color name="grey56">#818285</color>
+    <color name="grey40">#a5a6a8</color>
+    <color name="grey16">#dbdbdc</color>
+    <color name="grey12">#e4e4e5</color>
+    <color name="grey8">#edeeee</color>
+    <color name="grey3">#f8f9f9</color>
+    <color name="grey2">#343434</color>
+    <color name="grey0">#ffffff</color>
+    <color name="camel">#CBB54B</color>
+    <color name="colorAccent">#818285</color>
+    <color name="snackbarPopUpColor">#4b4d51</color>
+    <color name="etfDisableColor">#FFFFFF</color>
+    <color name="sessionInstructorGroo">#edeeee</color>
+
+    <color name="recentRowButtonBorderColor">#78797D</color>
+    <color name="bgColor1">#ffffff</color>
+    <color name="bgColor2">#000000</color>
+    <color name="borderColor">#e4e4e5</color>
+    <color name="dividerColor1">#f8f9f9</color>
+    <color name="dividerColor2">#EDEEEE</color>
+    <color name="blackAndWhiteColor">#000000</color>
+    <color name="giftCardViewColor">#00000072</color>
+
+    <!--booking colors-->
+    <color name="blue">#1094ff</color>
+    <color name="green">#00ac43</color>
+    <color name="orange">#e67607</color>
+    <color name="yellow">#fba61a</color>
+    <color name="red">#e82020</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--Block color-->
+    <color name="blockGreen">#37CC65</color>
+
+    <color name="available">#0000FF</color>
+
+    <color name="disabledColor">#e4e4e5</color>
+    <color name="shadowColor">#1e2026</color>
+
+    <!--Home alerts color-->
+    <color name="verMillion">#e82020</color>
+
+    <color name="primaryColor">#6645c1</color>
+    <color name="secondaryColor">#f76744</color>
+    <color name="primaryTextColor">#6645c1</color>
+    <color name="secondaryTextColor">#f76744</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="seekProgressBarColor">#666666</color>
+
+    <color name="white_16">#29ffffff</color>
+    <color name="white_32">#52ffffff</color>
+    <color name="black_80">#CC404040</color>
+    <color name="black_56">#8F282828</color>
+    <color name="secondaryColor_08">#14f76744</color>
+    <color name="grey100_24">#3D1e2026</color>
+    <color name="color24">#ffffff00</color>
+    <color name="camelColor">#CBB54B</color>
+    <color name="layoutRoundCorner">#92000000</color>
+    <color name="splashScreenColor">#663FC1</color>
+    <color name="progressBarIndeterminateColor">#00818285</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="grooLiveClassesDark">#008F86</color>
+    <color name="grooFilterCircularBackground">#1093FF</color>
+
+    <!--contentful-->
+    <color name="list_indicator_color">#4a4a4a</color>
+
+    <!--Infinite cycle BLEl-->
+    <color name="indigo">#6610f2</color>
+    <color name="purple">#6645c1</color>
+    <color name="pink">#e83e8c</color>
+    <color name="teal">#20c997</color>
+    <color name="cyan">#17a2b8</color>
+    <color name="gray">#868e96</color>
+    <color name="gray_dark">#343a40</color>
+    <color name="primary">#007bff</color>
+    <color name="secondary">#868e96</color>
+    <color name="success">#28a745</color>
+    <color name="info">#17a2b8</color>
+    <color name="warning">#ffc107</color>
+    <color name="danger">#dc3545</color>
+    <color name="light">#f8f9fa</color>
+    <color name="dark">#343a40</color>
+
+    <!--BlockApp4 colors-->
+    <color name="blockBgColor1">#000000</color>
+    <color name="blockBgColor2">#ffffff</color>
+    <color name="blockDarkGrey1">#1A1A1A</color>
+    <color name="blockDarkGrey2">#343434</color>
+    <color name="blockMidGrey1">#717171</color>
+    <color name="blockMidGrey2">#9D9D9D</color>
+    <color name="blockMidDarkGrey1">#3f3c3b</color>
+    <color name="blockGradiantStart">#14000000</color>
+
+    <color name="infininityEvoltBgColor">#F6EC1C</color>
+
+    <!--AccuroFit colors-->
+    <color name="AccuroFitZone1">#F26729</color>
+    <color name="AccuroFitZone2">#F79E1C</color>
+    <color name="AccuroFitZone3">#F3EB53</color>
+    <color name="AccuroFitZone4">#95D600</color>
+    <color name="AccuroFitZone5">#6645C1</color>
+
+    <!--FitPod colors-->
+    <color name="FitPodBase">#6EB2D9</color>
+    <color name="FitPodYellow">#FFD005</color>
+    <color name="FitPodGreen">#74BF44</color>
+    <color name="FitPodRed">#F16739</color>
+    <color name="FitPodBlack">#000000</color>
+
+    <!--EtfPod App colors-->
+    <color name="darkScreenColor">#518630</color>
+    <color name="darkSetRed">#FDE9E9</color>
+
+    <color name="zoneFiveColor">#000000</color>
+    <color name="zoneFourColor">#F16739</color>
+    <color name="zoneThreeColor">#74BF44</color>
+    <color name="zoneTwoColor">#FFD005</color>
+    <color name="zoneOneColor">#6EB2D9</color>
+
+    <string-array name="etfPodColor">
+        <item>#6EB2D9</item>
+        <item>#FFD005</item>
+        <item>#74BF44</item>
+        <item>#F16739</item>
+        <item>#000000</item>
+    </string-array>
+
+    <!-- Challenges Colors -->
+    <color name="challengesAssesmentBgColor">#E67607</color>
+    <color name="challengeGreenSurpass">#00AC43</color>
+    <color name="ChallengeGreenDark">#00782F</color>
+    <color name="orangeLightest">#FDF1E6</color>
+
+</resources>
