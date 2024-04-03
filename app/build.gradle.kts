@@ -37,6 +37,23 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    flavorDimensions += "tier"
+    productFlavors {
+        create("free") {
+            dimension = "tier"
+            applicationId = "com.krishna.myinshorts.free"
+            versionCode = 1
+            versionName = "1.0"
+        }
+
+        create("paid") {
+            dimension = "tier"
+            applicationId = "com.krishna.myinshorts.paid"
+            versionCode = 1
+            versionName = "1.0"
+        }
+    }
 }
 
 dependencies {

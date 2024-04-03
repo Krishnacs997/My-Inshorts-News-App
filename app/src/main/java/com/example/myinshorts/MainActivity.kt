@@ -3,6 +3,7 @@ package com.example.myinshorts
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -42,6 +43,17 @@ class MainActivity : AppCompatActivity() {
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this, MyViewModelFactory(this.application)).get(NewsViewModel::class.java)
         viewModel.newsDetailLiveData1.observe(this, resderNewsList)
+        viewModel.isViewLoading.observe(this, viewLoadingRender)
+    }
+
+    private val viewLoadingRender = Observer<Boolean> {
+        it.let {
+            if(it){
+                binding.progressBar.visibility = View.VISIBLE
+            } else {
+                binding.progressBar.visibility = View.GONE
+            }
+        }
     }
 
     private val resderNewsList = Observer<ArrayList<NewsArticlesList>>{

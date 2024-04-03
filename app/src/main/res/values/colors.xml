@@ -37,7 +37,7 @@
     <color name="yellow">#fba61a</color>
     <color name="red">#e82020</color>
     <color name="black">#000000</color>
-    <color name="white">#ffffff</color>
+    <color name="white">#000000</color>
 
     <!--Block color-->
     <color name="blockGreen">#37CC65</color>

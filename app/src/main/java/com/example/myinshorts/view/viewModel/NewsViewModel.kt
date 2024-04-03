@@ -17,6 +17,9 @@ class NewsViewModel(application: Application)  : ViewModel() {
     private val newsDetailLiveData = MutableLiveData<ArrayList<NewsArticlesList>>()
     val newsDetailLiveData1: LiveData<ArrayList<NewsArticlesList>> = newsDetailLiveData
 
+    private val _isViewLoading = MutableLiveData<Boolean>()
+    val isViewLoading : LiveData<Boolean> = _isViewLoading
+
     private val getRepository: GetREpo = RepositoryProvider.provideGetRepository(application)
 
     private val exceptionHandler = CoroutineExceptionHandler { _, throwable ->
@@ -28,6 +31,7 @@ class NewsViewModel(application: Application)  : ViewModel() {
 
     fun getNews() {
 
+        _isViewLoading.value = true
         viewModelScope.launch() {
             val response = getRepository.getNewsData()
 
@@ -39,6 +43,8 @@ class NewsViewModel(application: Application)  : ViewModel() {
                 Log.d("", "$newsDetailLiveData")
 
             }
+            _isViewLoading.value = false
+
 
             //if(response.isCanceled)
         }
